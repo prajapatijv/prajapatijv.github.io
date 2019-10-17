@@ -2677,4 +2677,16 @@ BLOG Pagination
   line-height: 30px;
   margin-bottom: 30px; }
 
-/*# sourceMappingURL=styles.css.map */
+.mh-professional-skills-2 {
+  padding-left: 0%; }
+  .mh-professional-skills-2 h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px; }
+
+    .mh-professional-skills-2 .mh-progress-circle {
+      margin: 5px;
+    }
+      /*# sourceMappingURL=styles.css.map */

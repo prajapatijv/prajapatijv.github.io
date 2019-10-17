@@ -11,7 +11,7 @@
           
           var $container = $('.portfolioContainer');
           $container.isotope({
-              filter: '*',
+              filter: '.3p',
               animationOptions: {
                   queue: true
               }

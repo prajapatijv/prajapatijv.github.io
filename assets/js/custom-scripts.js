@@ -33,11 +33,18 @@
         });
       /* Loader Code End */
 
-    $('#theme-selector').click(function(){
-        $('body').toggleClass('dark-vertion');
-        $('body').toggleClass('white-vertion');
+    var clickCount = 0;  
+    $('#theme-selector').unbind('click').bind('click', function(){
+      clickCount+=1;
+      if (clickCount % 2 === 1) {
+        $('html,body').toggleClass('dark-vertion');
+        $('.mh-service-item').toggleClass('dark-bg');
+        $('.mh-education-item').toggleClass('dark-bg');
+        $('.mh-work-item').toggleClass('dark-bg');
+        $('.mh-client-item').toggleClass('dark-bg');
+        $('.mh-address-footer-item').toggleClass('dark-bg');
+      }
     });
-
    
     /*
     |====================

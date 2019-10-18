@@ -30,20 +30,14 @@
                });
                return false;
           });
-
-          $('#theme-selector').click(function(){
-            var isDarkVersion = $('body').hasClass('dark-vertion');
-            if (isDarkVersion) {
-              $('body').removeClass('dark-vertion')
-              $('body').addClass('white-vertion')
-            }else {
-              $('body').removeClass('white-vertion')
-              $('body').addClass('dark-vertion')
-            }
-          });
         });
       /* Loader Code End */
-  
+
+    $('#theme-selector').click(function(){
+        $('body').toggleClass('dark-vertion');
+        $('body').toggleClass('white-vertion');
+    });
+
    
     /*
     |====================

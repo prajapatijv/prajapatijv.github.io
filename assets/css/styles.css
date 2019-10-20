@@ -2691,14 +2691,14 @@ BLOG Pagination
     }
       /*# sourceMappingURL=styles.css.map */
 
-.mh-quates .each-quates .fa { margin-right: 5px; height: 20px; width: 20px;  margin-top: 10px; line-height: 20px; font-size: 13px;}
+.mh-quates .each-quates .fa { margin-right: 5px; height: 14px; width: 14px;  margin-top: 7px; line-height: 14px; font-size: 13px;}
 .mh-quates .each-quates .sub-item  { margin-left: 24px; font-size: 13px;}
 
 .portfolioContainer .mh-work { padding-left: 0; width: 100%; padding-bottom: 24px;}
 .portfolioContainer .mh-work .mh-work-item .work-responsibility li { font-size: 13px; }
 .portfolioContainer .mh-work .mh-work-item .tools-technologies { border-top:2px solid whitesmoke;}
 .portfolioContainer .mh-work .mh-work-item p { font-size: 13px; }
-.nav-item .theme-container { margin-left: 18px;}
+.nav-item .theme-container { margin-left: 36px;}
 .custom-switch {
   padding-left: 1.25rem;
 }
@@ -2738,3 +2738,6 @@ BLOG Pagination
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
   background-color: rgba(0, 123, 255, 0.5);
 }
+
+.white-vertion header .navbar-nav .nav-item a.nav-link{ color: #000; }
+.dark-vertion header .navbar-nav .nav-item a.nav-link{ color: white; }

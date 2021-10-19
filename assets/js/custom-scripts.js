@@ -11,7 +11,7 @@
           
           var $container = $('.portfolioContainer');
           $container.isotope({
-              filter: '.3p',
+              filter: '.zipco',
               animationOptions: {
                   queue: true
               }
@@ -46,6 +46,7 @@
       }
     });
    
+    $('#theme-selector').click();
     /*
     |====================
     | Mobile NAv trigger
